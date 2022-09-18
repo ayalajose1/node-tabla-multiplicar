@@ -1,0 +1,26 @@
+process.argv: Es el input tradicional de node
+Permite pasar argumentos a través de la línea de comandos (CLI).
+process.argv - console.log(process.argv) - ver objeto args
+
+yargs: es uuna librería hace que los argumentos de la línea de comandos sean flexibles y fáciles de usar - npm install yargs --save.
+
+En este ejecicio se genera una tabla de multiplicar con un número dado desde la línea de comando.
+
+Comandos útiles para ejecutar la aplicación:
+
+node app.js -b 8 -l - para ver detalles de los objetos
+
+node app.js -b 8 - genera la tabla de multipiclar de base 8.
+La tabla se guarda en un archivo - utilizando const fs = require('fs').
+
+node app.js -b 8 -l - hace lo anterior pero lista la tabla en la terminal.
+
+colors: es uuna librería que nso permite darl color a la salida por terminal - npm install colors --save
+
+
+
+
+
+
+
+
